@@ -1,6 +1,6 @@
 # genre-classification
 
-This library contains a simple algorithm that uses a dimension-reduced Gaussian Naive Bayes classifier to discern the genre of a given musical track. This is an 'agnostic' classifier, in the sense that it does not use any particular musical feature recognition. It only looks at the .wav file, mapped into frequency space via the [MFCC transform](http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/). The machine-learning core of this algorithm uses [sci-kit learn](http://scikit-learn.org/stable/).
+This library contains a simple algorithm that uses a dimension-reduced Gaussian Naive Bayes classifier to discern the genre of a given musical track. This is an 'agnostic' classifier, in the sense that it does not use any particular musical feature recognition. It only looks at the .wav file, mapped into frequency space via the [MFCC transform](http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/). The machine-learning core of this algorithm uses [scikit-learn](http://scikit-learn.org/stable/).
 
 Please note that the [python_speech_features](https://github.com/jameslyons/python_speech_features) library must be installed.
 
