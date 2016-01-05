@@ -26,4 +26,4 @@ for track in query_collection:
     print track.path +', '+ track.genre
 ```
 
-This is meant to function as an exploration of dimension reduction and machine learning rather than a maximally effective genre classification scheme. A truly effective scheme would strategically employ musical features in classification. A report that discusses the methods used in the algorithm (as well as some alternatives) can be found [here](https://drive.google.com/file/d/0B_uQ2Fw3yuKWZzNoNndLUzRoRVE/view?usp=sharing).
+This is meant to function as an exploration of dimension reduction and machine learning rather than a maximally effective genre classification scheme. A truly effective scheme would strategically employ musical features in classification (see, for example, [Barbedo 07](http://www.asp.eurasipjournals.com/content/pdf/1687-6180-2007-064960.pdf)). A report that discusses the methods used in the algorithm (as well as some alternatives) can be found [here](https://drive.google.com/file/d/0B_uQ2Fw3yuKWZzNoNndLUzRoRVE/view?usp=sharing).
